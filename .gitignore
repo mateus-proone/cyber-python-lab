@@ -13,7 +13,10 @@ pip-log.txt
 # Logs and runtime files
 *.log
 logs/
+
+# Ignore JSON por padrão, mas permitir amostras em artifacts/
 *.json
+!artifacts/*.json
 
 # System
 .DS_Store
