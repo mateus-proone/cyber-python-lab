@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.env
+pip-log.txt
+*.egg-info/
+.dist-info/
+
+# Logs and runtime files
+*.log
+logs/
+*.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
